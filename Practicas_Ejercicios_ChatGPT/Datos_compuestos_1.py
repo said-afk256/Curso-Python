@@ -20,7 +20,7 @@ print(Auto[3])
 
 # 5.- Crea un set con 5 elementos (pueden ser nombres)
 # Intenta agregar un elemento repetido y luego imprime el set
-nombres={'Said','Leo','Elena','Oliver','Alma','Said'}
+nombres={'Phrolova','Cantarella','Qiyuan','Roccia','Shorekeeper','Phrolova'}
 print(nombres)
 #Nota: En los sets no se puede repetir datos y no llevan orden
 # 6.- Crea un set con diferentes tipos de datos

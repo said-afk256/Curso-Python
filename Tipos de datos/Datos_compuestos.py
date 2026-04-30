@@ -3,7 +3,7 @@
 
 #1.- Lista
 #Ejemplo de lista con el orden Nombre, que soy, estoy exelente, altura aprox
-lista = ["Said Burciaga", "Soy programador", True, 1.72]
+lista = ["Said", "Soy programador", True, 1.72]
 
 print(lista[0])
 #Lo anterior es un array simple
@@ -23,7 +23,7 @@ print(Tupla[0])#Aunque la tupla use parentesis, en los prints se usa corchete
 #y los Tupla no se puede modificar los datos que tiene dentro
 
 #Modificación valida (List)
-lista[0]="Leo Burciaga"
+lista[0]="Leo"
 #La modificación sera valida si el print se realiza a partir de este punto
 #Python=Interpretación linea a linea
 

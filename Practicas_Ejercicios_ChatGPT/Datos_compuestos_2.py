@@ -79,8 +79,8 @@ print(type(incognita))
 # Imprime el nombre del segundo usuario.
 # Escribe tu código abajo:
 usuarios=[{
-    "Nombre":"Said Burciaga","id":1
-}, {"Nombre":"Leo", "id":2}]
+    "Nombre":"Said","id":1
+}, {"Nombre":"Valeria", "id":2}]
 print("ejercicio 10: " + usuarios[1]["Nombre"])
 #Ej10: Necesite ayuda
 
