@@ -26,4 +26,4 @@ elif ingreso_mensual>1000:
 else:
     print("Vivis en la calle")
 
-    
+print("Nuevo mensaje")
