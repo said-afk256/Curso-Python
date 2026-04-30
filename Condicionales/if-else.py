@@ -23,3 +23,5 @@ if Contraseña_escrita == Contraseña_almacenada:
     
 else:
     print("Contraseña incorrecta, Intente de nuevo")
+    
+print("Mensaje fuera del if")
