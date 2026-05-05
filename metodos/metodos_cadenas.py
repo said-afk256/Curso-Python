@@ -1,3 +1,4 @@
+#04/05/2026
 cadena1="Hola, soy Said"
 cadena2="Bienvenido CRACK"
 
@@ -53,9 +54,12 @@ print(busqueda_find_No_existente)
 
 #Es casi lo mismo que el metodo find
 metodo_index=cadena2.find("i")
-print(metodo_index)
+print(f"Método index: {metodo_index}")
 #La diferencia con find es que si la letra no se encuentra,no hay coincidencias, index nos saltara una excepción y nos dara error en programa, lo parara ahi
 #metodo_index=cadena2.find("b") #Resultado=Error
+
+#Los index en métodos de lista ahi con solo se encuentre una coincidencia esta bien, en listas no. 05/05/2026
+
 
 "Métodos de consulta"
 #Método isnumeric
