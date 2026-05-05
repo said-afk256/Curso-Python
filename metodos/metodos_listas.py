@@ -85,6 +85,7 @@ print(f"Sort con reverse: {lista}")
 #Este método NO ordena la lista, solamente pone todos los datos al reverse
 print()
 lista1=[True, 3, 2, 9, 7, 10, False, "hola"]
+print(f"Nueva lista: {lista1}")
 lista1.reverse()
 print(f"Darle reverse a la ultima lista: {lista1}")
 print()
