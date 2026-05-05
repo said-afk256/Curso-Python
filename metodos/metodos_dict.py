@@ -19,6 +19,8 @@ get1=diccionario.get("KeyNoExistente")#También se podria usar diccionario["clav
 print(f"Apellido: {get}")
 print(f"Resultado de get con un dato no existente: {get1}")
 print()
+#También el get() tiene la propiedad de dejar mensajes como el pop()
+#get("KeyInexistente","Mensaje")
 
 #Método clear()
 #Borra todos los elementos del diccionario
