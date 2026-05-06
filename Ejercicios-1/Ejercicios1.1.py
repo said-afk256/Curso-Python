@@ -21,3 +21,4 @@ Porcentaje_promedio=tiempo_este_curso/tiempo_maximo*100
 print(Porcentaje_rapido)
 print(Porcentaje_lento)
 print(Porcentaje_promedio)
+
