@@ -1,8 +1,4 @@
-#Porcentaje de material inservible que se reduce en:
-#El promedio de los cursos
-#El curso actual
-
-#Duraciones de los cursos
+#Como lo resolvio Dalto
 
 tiempo_minimo=2.5
 tiempo_maximo=7
