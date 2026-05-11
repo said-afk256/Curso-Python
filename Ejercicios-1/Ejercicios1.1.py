@@ -1,3 +1,4 @@
+#Con ayuda de ia para resolverlo
 # 07/05/2026
 # Datos
 tiempo_minimo = 2.5
