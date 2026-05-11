@@ -1,10 +1,18 @@
 #Como lo resolvio Dalto
 
-tiempo_minimo=2.5
-tiempo_maximo=7
-tiempo_este_curso=1.5
-tiempo_promedio=4
+#Promedio de duración
 
-crudo_este_curso=3.5
-crudo_otro=5
+otros_cursos_min=2.5
+otros_cursos_max=7
+otros_cursos_promedio=4
+dalto_curso=1.5
 
+#Diferencias de duración
+
+diferencia_con_min=100-(dalto_curso/otros_cursos_min*100)
+diferencia_con_max=100-dalto_curso//otros_cursos_max/10
+diferencia_con_promedio=100-dalto_curso/otros_cursos_promedio*100
+
+print(f"El curso de Dalto dura un {diferencia_con_min}% menos que el curso mas rapido")
+print(f"El curso de Dalto dura un {diferencia_con_max}% menos que el curso mas lento")
+print(f"El curso de Dalto dura un {diferencia_con_promedio}% menos que el curso promedio")

@@ -16,8 +16,8 @@ volumen_final_tinaco_tu_sistema = 960 #(tu sistema es más eficiente)
 # TAREAS A REALIZAR:
 # ------------------------------------------------------------------------------
 
-# 1. Calcular la diferencia porcentual de TIEMPO entre:
-#    a) Tu sistema y el viejo.
+print("--1. Diferencia porcentual entre el sistama viejo y estandar con el optimizado--")
+print()
 diferencia_con_viejo = 100 - (tiempo_tu_sistema_optimizado / tiempo_sistema_viejo * 100)
 print(f"La diferencia porcentual de tiempo de mi sistema con el viejo es del {diferencia_con_viejo:.1f}%")
 #    b) Tu sistema y el estandar.
@@ -26,7 +26,8 @@ print(f"La diferencia porcentual de tiempo de mi sistema con el estandar es del 
 #    (Fórmula sugerida: 100 - (tiempo_tu_sistema / tiempo_otro * 100))
 print()
 
-# 2. Calcular el porcentaje de "Pérdida de Agua" en:
+print("--2. Porcentaje de perdida del agua--")
+print()
 #    a) El sistema promedio.
 perdida_promedio= 100-(volumen_final_tinaco_promedio/volumen_inicial_cisterna*100)
 print(f"La perdida de agua en el sistema promedio es del {perdida_promedio:.1f}%")
@@ -36,14 +37,17 @@ print(f"La perdida de agua en el sistema optimizado es del {perdida_sistema_opti
 #    (Fórmula sugerida: 100 - (volumen_final / volumen_inicial * 100))
 print()
 
-# 3. Equivalencia de Eficiencia:
+print ("--3. Equivalencia de Eficiencia--")
+print()
 #    Si dejas funcionando tu sistema por 60 minutos... 
 #    ¿A cuántos minutos de funcionamiento del "sistema viejo" equivaldría en 
 #    términos de agua movida?
-equivalencia_viejo=(tiempo_sistema_viejo/perdida_sistema_optimizado*60)
-equivalencia_viejo_hora=(tiempo_sistema_viejo/perdida_sistema_optimizado)
-print(f"""Si dejamos los sistemas funcionando 1 hora completa, los minutos del sistema viejo
-en el nuevo serian equivalentes a {equivalencia_viejo:.1f} minutos o a {equivalencia_viejo_hora:.1f} horas""")
+factor_velocidad=(tiempo_sistema_viejo/tiempo_tu_sistema_optimizado)
+equivalencia_viejo_min=factor_velocidad*60
+equivalencia_viejo_hora=equivalencia_viejo_min/60
+print(f"""Si nuestro sistema optimizado funciona durante una hora,en el sistema viejo tardaria
+{equivalencia_viejo_hora:.1f} horas o a {equivalencia_viejo_min:.1f} minutos en equivalar con el nuevo""")
+
 # ------------------------------------------------------------------------------
 # RESULTADOS ESPERADOS (Ejemplo de salida):
 # ------------------------------------------------------------------------------
