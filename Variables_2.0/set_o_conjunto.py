@@ -35,4 +35,5 @@ print()
 #Función isdisjoint()
 #Verificar si hay algun número en común
 #True si son completamente diferentes y False si tienen al menos un elemento en común
+
 resultado=conjunto2.isdisjoint(conjunto1)
