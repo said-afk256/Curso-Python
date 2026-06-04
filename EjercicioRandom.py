@@ -35,7 +35,15 @@ else:
     print(permiso)
 
 print()
-    
+nivel_usuario=input("Pon tu nivel de usuario [1:trabajador, 2:supervisor, 3:administrador]")
+if nivel_usuario == "1":
+    print("Acceso al dashword")
+elif nivel_usuario == "2":
+    print("Acceso a herramientas para el dashword")
+elif nivel_usuario == "3":
+    print("Acceso total al uso y modificación del dashword")
+else:
+    print("Escribe un valor valido")
 # 3. CONVERSIÓN SEGURA DE PARÁMETROS CRÍTICOS (Try...Except)
 # El HMI envía la frecuencia para un variador de velocidad como un texto. Si el operador
 # escribe una coma en lugar de un punto (ej. "50,5"), float() fallará.
