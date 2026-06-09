@@ -3,6 +3,8 @@
 #Un bucle while es un bucle que se activa al cumplir cierta condición, no es como el for, que completa todo
 #el bucle, sino, que realiza el bucle hasta que deje de cumplirse el bucle
 
+
+#Creando un contador que va a ir sumandose
 contador=0
 
 #Mientras que la condición se cumpla, el bucle va a seguir ejecutando.
