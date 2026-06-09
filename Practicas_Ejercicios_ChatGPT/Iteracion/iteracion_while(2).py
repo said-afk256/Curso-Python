@@ -1,3 +1,5 @@
+#09/06/2026
+
 # ==============================================================================
 # EJERCICIO 1: Saltando distractores con "continue"
 # Tienes una lista de actividades. Itera sobre ellas con un bucle 'for' e imprímelas.

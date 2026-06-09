@@ -1,3 +1,6 @@
+#09/06/2026
+
+
 # ==============================================================================
 # EJERCICIO 1: Multiplicación condicional en listas
 # Itera sobre la lista 'numeros'. Si el número es mayor a 50, multiplícalo por 10.
