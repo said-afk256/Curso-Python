@@ -23,6 +23,6 @@ print()
 #Ejemplo: lista1=5 elementos, lista 2= 3 elementos. EL resultado seria que la lista 2 sale completa pero la lista 5 solo llegaria hasta el tercer elemento
  
 for numero, animal in zip(animales, numeros):
-    
+    print(f"Recorriendo lista 1: {numero}")
     print(f"Recorriendo lista 2: {animal}")
 print()
