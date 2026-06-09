@@ -59,4 +59,4 @@ else:
     #El else en un "for" siempre se ejecutara y solo aparece una vez, al menos que haya un "break" en el código
     #Esto es por que el else se ejecuta si ya se acaba el código del for, haciendo que practicamente se ejecute siempre una vez terminado el bucle
 
-#Estos códigos también funcionan con tuplas aparte de las listas
+#Estos códigos también funcionan con tuplas y conjuntos aparte de las listas
