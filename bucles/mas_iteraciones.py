@@ -41,4 +41,3 @@ numeros_duplicados=[x*2 for x in numeros] #Sirve para expresiones matematicas se
 #Se guarda en una variable, luego se abren corchetes como si fuera una lista y se pone la expresión
 print(f"Lista numeros duplicado por 2: {numeros_duplicados}")#Si ponemos type() a la variable, saldra que es una lista
 
- 
