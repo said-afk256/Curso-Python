@@ -39,7 +39,7 @@ print(f"La cantidad {cantidad:g} representa el {porcentaje_resultante:g}% del to
 #Apagado interactivo
 print("\nLa pantalla se limpiará en 10 segundos o al presionar cualquier tecla...")
 
-for i in range(10):
+for i in range(15):
     time.sleep(1) # Espera de 1 en 1 segundo
     
     if msvcrt.kbhit():
