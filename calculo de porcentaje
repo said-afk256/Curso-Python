@@ -41,4 +41,5 @@ for i in range (10):
     
 os.system("cls" if os.name == "nt" else "clear")
 print("Terminal limpia")
+
     
