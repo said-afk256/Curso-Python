@@ -1,3 +1,6 @@
+10/06/2026
+Explicación de funciones
+
 ---Funciones---
 
 Las fuciones en python son códigos ya creados tiene internamente para poder reutilizarlos,
@@ -13,3 +16,37 @@ sin la necesidad de saber como esta compuesto la función
 ---build in---
 Los programadores podemos crear nuestros propias funciones, creamos un código y le asignamos un nombre
 para llamarlo, pero, las funciones que vienen por defecto de python, esas se llaman funciones "build in"
+o funciones integradas
+
+
+
+"VERSIÓN REDACTADA POR CHATGPT"
+
+
+--- Funciones ---
+
+Las funciones en Python son bloques de código reutilizables que realizan una tarea específica.
+Algunas funciones, como `print()`, ya vienen incorporadas en Python.
+Por ejemplo, `print()` nos permite mostrar información en la terminal sin necesidad de escribir
+todo el código que hace posible esa acción.
+
+La principal ventaja de las funciones es que permiten reutilizar código sin tener que copiarlo y 
+pegarlo varias veces.
+
+--- Abstracción ---
+
+La abstracción es el concepto de utilizar una función sabiendo qué hace y cómo usarla, 
+sin necesidad de conocer los detalles de cómo está implementada internamente.
+
+Por ejemplo, podemos usar `print()` para mostrar texto en pantalla sin saber exactamente cómo 
+Python envía esa información a la terminal.
+
+--- Funciones built-in ---
+
+Los programadores podemos crear nuestras propias funciones utilizando la palabra clave `def`. 
+Sin embargo, Python también incluye funciones que ya vienen incorporadas por defecto, 
+como `print()`, `len()` e `input()`. Estas se conocen como funciones *built-in* 
+(integradas o incorporadas).
+
+
+_________________________________________________________________________________________________
