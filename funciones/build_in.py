@@ -45,7 +45,7 @@ print(resultado_all_false)
 print()
 
 #Función sum()
-#Suma todos los números o variables dentro del parentesis (no se si se puede mas de una variable a la vez, probablemete si)
+#Suma todos los números dentro de la variable, que por lo general es mejor que sea una lista para poder sumar varios números
 suma=sum(numeros)
 
 print(suma)
