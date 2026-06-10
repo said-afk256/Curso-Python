@@ -1,0 +1,15 @@
+---Funciones---
+
+Las fuciones en python son códigos ya creados tiene internamente para poder reutilizarlos,
+funciones como "print()" que es una función que nos permite imprimir en la terminal, y esta función
+ya viene por defecto en python, el print() tiene un código que lo hace funcionar y lo llama con solo
+escribir el nombre de la función, ese es el chiste de las funciones, reutilizar pedazos de código sin
+tener que copiarlos y pegarlos.
+
+---abstracción---
+La abstracción en python es el concepto de entender para que funciona una función y como utilizarlo, esto
+sin la necesidad de saber como esta compuesto la función
+
+---build in---
+Los programadores podemos crear nuestros propias funciones, creamos un código y le asignamos un nombre
+para llamarlo, pero, las funciones que vienen por defecto de python, esas se llaman funciones "build in"
