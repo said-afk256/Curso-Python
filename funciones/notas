@@ -1,0 +1,53 @@
+#11/06/2026
+
+#Notas para "crear_funciones.py"
+#Las "" estan para separar los temas
+""
+# Un parámetro es una variable que recibe datos cuando se llama a la función.
+# Su alcance normalmente es local, por lo que solo puede utilizarse dentro de la función.
+
+""
+#return contraseña
+# return devuelve el VALOR contenido en la variable.
+# No devuelve la variable en sí.
+# Después de ejecutar return, la función termina.
+
+
+""
+
+# Si la función ya contiene un print(), normalmente no es necesario
+# envolver la llamada en otro print().
+
+# ya que no puedes imprimir una función como tal
+
+#Esto no es del todo cierto.
+
+#Sí puedes imprimir el resultado de una función:
+
+#print(crear_contraseña_random(8))
+
+#Lo que ocurre es que:
+
+#Si la función usa print(), ya muestra el resultado.
+#Si la función usa return, puedes imprimir lo que devuelve.
+
+
+
+""
+
+#return contraseña,num #tupla
+
+#Podrías agregar:
+
+# Python empaqueta automáticamente los valores en una tupla:
+# ("gid16", 8)
+
+#Y cuando haces:
+
+#password, primer_num = crear_contraseña_random(124908)
+
+#agregar:
+
+# Desempaquetado:
+# password recibe la contraseña
+# primer_num recibe el primer dígito utilizado
