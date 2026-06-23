@@ -50,3 +50,31 @@ como `print()`, `len()` e `input()`. Estas se conocen como funciones *built-in*
 
 
 _________________________________________________________________________________________________
+
+# Las funciones lambda son funciones anónimas, es decir, funciones que pueden
+# crearse sin definirlas mediante "def". Generalmente se utilizan para tareas
+# simples y cortas que suelen ocupar una sola línea de código.
+#
+# Aunque normalmente no tienen nombre, pueden guardarse en una variable para
+# reutilizarlas posteriormente.
+#
+# Son útiles cuando necesitamos una función sencilla de forma rápida, por
+# ejemplo al trabajar con funciones como filter(), map() o sorted().
+
+""
+
+
+# La función filter() se utiliza para filtrar elementos de una colección
+# (listas, tuplas, conjuntos, etc.) según una condición.
+#
+# Recorre cada elemento del iterable y evalúa una función que debe devolver
+# True o False.
+#
+# Si devuelve True, el elemento se conserva.
+# Si devuelve False, el elemento se elimina.
+#
+# filter() devuelve un objeto filter, por lo que normalmente se convierte
+# a una lista utilizando list().
+#
+# Se suele utilizar junto con funciones lambda para crear filtros simples
+# y rápidos.
