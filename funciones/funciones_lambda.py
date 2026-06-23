@@ -9,12 +9,12 @@ multiplicar_por_dos= lambda x: x*2
 
 
 #Creando una función comun que diga si es par o no
-def es_par(num):
-    if(num%2==0):
-        return True
+#def es_par(num):
+#    if(num%2==0):
+#        return True
     
 #Usando Filter con una función común
-numeros_par=filter(es_par(numeros))
+#numeros_par=filter(es_par(numeros))
 
 
 #Creando lo mismo de antes pero con lambda
