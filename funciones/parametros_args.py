@@ -16,4 +16,12 @@
 def suma(nombre,*numeros):#el operador * tiene que ir al ultimo ya que no deja agregar mas parametros después de este
     return f"Nombre del usuario: {nombre}, su suma es de: {sum(numeros)}"
 resultado=suma("Said", 12+24+64)
+print(resultado)
 
+
+def suma_total(numeros):
+   print(*numeros)
+   return suma([*numeros])
+ 
+resultado2=suma_total([2+2+5+1])
+print(resultado)
