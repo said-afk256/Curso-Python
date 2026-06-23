@@ -18,7 +18,7 @@ def suma(nombre,*numeros):#el operador * tiene que ir al ultimo ya que no deja a
 resultado=suma("Said", 12+24+64)
 print(resultado)
 
-
+#Forma optima de sumar valores
 def suma_total(numeros):
    print(*numeros)
    return suma([*numeros])
